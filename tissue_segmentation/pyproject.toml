@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tissue-segmentation"
+version = "0.1.2"
+description = ""
+authors = ["Nick Weiss <nick.weiss@mevis.fraunhofer.de>"]
+readme = "README.md"
+packages = [{include = "tissue_segmentation"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "^1.24.3"
+tensorflow-cpu = "==2.13.0"
+scikit-image = "^0.21.0"
+scipy = "^1.11.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
