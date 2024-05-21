@@ -1,6 +1,8 @@
 # TissueSegmentation
 
-This repo contains the code to run a tissue-background segmentation based on [Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks](https://doi.org/10.7717/peerj.8242). It was used in the acrobat challenge to mask away the control tissue, see [here](https://histoapp.pages.fraunhofer.de/about/2022-08-26-method_description_acrobat_challenge.pdf).
+This reposotory contains the code to run a tissue-background segmentation based on [Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks](https://doi.org/10.7717/peerj.8242). It was used in the acrobat challenge to mask away the control tissue, see [here](https://histoapp.pages.fraunhofer.de/about/2022-08-26-method_description_acrobat_challenge.pdf).
+
+This software is not for medical use and for research use only. Research results generated or obtained by using the Software may not be used for diagnostic or therapeutic purposes. 
 
 
 ## Requirements
