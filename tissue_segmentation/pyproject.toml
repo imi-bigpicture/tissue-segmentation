@@ -1,6 +1,6 @@
 [project]
 name = "tissue-segmentation"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = [{ name = "Nick Weiss", email = "nick.weiss@mevis.fraunhofer.de" }]
 requires-python = ">=3.12"

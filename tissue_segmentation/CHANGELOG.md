@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+
+- Migrated poetry to uv
+- Updated dependencies
+- Migrated fcnn hdf5 file to zip keras format
+
 ## 0.1.2
 
 - added parameters
