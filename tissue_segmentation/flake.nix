@@ -2,7 +2,7 @@
 	description = "Developer shell for Tissue Segmentation";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-25.05";
   };
 
 	outputs = { self, nixpkgs }:
@@ -14,7 +14,7 @@
     in {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          poetry
+          uv
         ];
       };
     };
